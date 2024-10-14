@@ -1,71 +1,61 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Task Scheduler
 
-## Available Scripts
+A responsive task scheduler web application built with HTML, CSS, JavaScript, and React that helps users manage their tasks efficiently by allowing task prioritization, scheduling by date, and tracking of completed and upcoming tasks.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Add Tasks with Priority**: Users can add tasks with three priority levels:
+  - Low
+  - Medium
+  - High
+- **Task Scheduling by Date**: Tasks can be scheduled with a specific due date.
+- **Task Status Management**:
+  - Mark tasks as done, and they will be moved to the "Completed Task" section.
+  - Delete tasks, and they will be removed from both the "Upcoming" and "Completed" sections.
+  - Incomplete tasks will be shown in the "Upcoming Task" section for easy tracking.
+  
+## Sections
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Upcoming Tasks**: Displays tasks that are pending and not yet completed.
+2. **Completed Tasks**: Displays tasks that have been marked as done.
+3. **Deleted Tasks**: Deleted tasks are not displayed in either section.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- **Frontend**: HTML, CSS, JavaScript, React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To run this project locally:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/JyotiradeetiBagal/task_schedular.git
+   ```
+   
+2. Navigate to the project directory:
+   ```bash
+   cd task-scheduler
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Run the project:
+   ```bash
+   npm start
+   ```
 
-### `npm run eject`
+5. Open the app in your browser:
+   ```bash
+   http://localhost:3000
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# task_schedular" 
+- Add tasks with a description, priority, and due date.
+- Manage tasks by marking them as done, viewing upcoming tasks, or deleting them.
+- Navigate between the **Upcoming Task** and **Completed Task** sections to view the status of your tasks.
