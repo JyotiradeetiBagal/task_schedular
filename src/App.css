@@ -1,0 +1,144 @@
+
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+} 
+
+body { 
+	font-family: Arial, sans-serif; 
+	background-color: #F5EFFF; 
+	margin: 0; 
+	padding: 0; 
+	color: #333; 
+} 
+
+header { 
+	background-color: #A594F9; 
+	color: white; 
+	text-align: center; 
+	padding: 1rem 0; 
+	box-shadow: 0 4px 18px grey; 
+} 
+
+main { 
+  
+	max-width: 800px; 
+	margin: 20px auto; 
+	padding: 20px; 
+	background-color: #E7E1FF; 
+	box-shadow: 0 4px 18px grey; 
+	border-radius: 15px; 
+} 
+
+.task-form { 
+	display: flex; 
+	flex-wrap: wrap; 
+	gap: 10px; 
+	margin-bottom: 20px; 
+} 
+
+.task-form input, 
+.task-form select, 
+.task-form button { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	font-size: 16px; 
+	flex: 1; 
+	border-radius: 10px; 
+} 
+
+button { 
+	background-color: #8a74fa; 
+	color: white; 
+	border: none; 
+	cursor: pointer; 
+} 
+
+.mark-done { 
+	padding: 10px; 
+	font-size: 16px; 
+	flex: 1; 
+	border-radius: 15px; 
+	background-color: crimson; 
+	color: white; 
+	border: none; 
+	cursor: pointer; 
+} 
+
+.high {
+  background-color: red;
+}
+
+.middle {
+  background-color: rgb(234, 234, 0);
+}
+
+.low {
+  background-color: green;
+}
+
+.delete-task {
+  padding: 10px; 
+	font-size: 16px; 
+	flex: 1; 
+	border-radius: 15px; 
+	background-color: rgb(158, 2, 33); 
+	color: white; 
+	border: none; 
+	cursor: pointer; 
+  transition: background-color 0.3s ease;
+}
+
+.delete-task:hover {
+  background-color: #fd0000; /* Darker red on hover */
+}
+
+
+.task-list { 
+	
+	padding: 10px; 
+} 
+
+table { 
+	width: 100%; 
+	margin-top: 20px; 
+	background-color: #fff; 
+	border: 1px solid #ddd; 
+  
+} 
+
+table th, 
+table td { 
+	padding: 19px; 
+	border-bottom: 1px solid #ddd; 
+	text-align: left; 
+} 
+
+table th { 
+	background-color: #F5EFFF; 
+	color: black; 
+	border-radius: 10px; 
+} 
+
+.completed-task-list { 
+	margin-top: 20px; 
+} 
+
+.completed-task { 
+	padding: 10px; 
+	border: 1px solid crimson; 
+	border-radius: 5px; 
+	background-color: #eaffea; 
+} 
+
+
+
+h2 { 
+	font-size: 1.3rem; 
+} 
+
+.heading { 
+	padding-bottom: 10px; 
+} 
+
